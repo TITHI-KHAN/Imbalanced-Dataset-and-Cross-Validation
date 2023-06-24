@@ -34,13 +34,13 @@ The general procedure is as follows:
    
 3. For each unique group:
    
-  1. Take the group as a hold out or test data set.
-     
-  2. Take the remaining groups as a training data set.
-     
-  3. Fit a model on the training set and evaluate it on the test set.
-     
-  74 Retain the evaluation score and discard the model.
+        1. Take the group as a hold out or test data set.
+           
+        2. Take the remaining groups as a training data set.
+           
+        3. Fit a model on the training set and evaluate it on the test set.
+           
+        4. Retain the evaluation score and discard the model.
      
 4. Summarize the skill of the model using the sample of model evaluation scores.
 
