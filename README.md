@@ -9,7 +9,7 @@
 # Cross Validation
 Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample. It is a technique used to protect against overfitting in a predictive model, particularly in a case where the amount of data may be limited. In cross-validation, you make a fixed number of folds (or partitions) of the data, run the analysis on each fold, and then average the overall error estimate.
 
-<c>![image](https://github.com/TITHI-KHAN/Imbalanced-Dataset-and-Cross-Validation/assets/65033964/96427114-ed12-4788-ab73-487d80edcc4c)</c>
+![image](https://github.com/TITHI-KHAN/Imbalanced-Dataset-and-Cross-Validation/assets/65033964/96427114-ed12-4788-ab73-487d80edcc4c)
 
 # Cross Validation Techniques
 
