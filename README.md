@@ -30,15 +30,19 @@ Cross-validation is a resampling procedure used to evaluate machine learning mod
 The general procedure is as follows:
 1. Shuffle the dataset randomly.
    
-2. Split the dataset into k groups
+2. Split the dataset into k groups.
    
 3. For each unique group:
-  1. Take the group as a hold out or test data set
-  2. Take the remaining groups as a training data set
-  3. Fit a model on the training set and evaluate it on the test set
-  4. Retain the evaluation score and discard the model
+   
+  1. Take the group as a hold out or test data set.
      
-4. Summarize the skill of the model using the sample of model evaluation scores
+  2. Take the remaining groups as a training data set.
+     
+  3. Fit a model on the training set and evaluate it on the test set.
+     
+  74 Retain the evaluation score and discard the model.
+     
+4. Summarize the skill of the model using the sample of model evaluation scores.
 
 ![image](https://github.com/TITHI-KHAN/Imbalanced-Dataset-and-Cross-Validation/assets/65033964/ed63a087-49e2-43eb-86d7-1e8354997f2f)
 
